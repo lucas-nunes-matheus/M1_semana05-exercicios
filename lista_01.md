@@ -11,7 +11,7 @@ As respostas das questões objetivas estão grifadas com marca-texto amarelo. En
 
 Escolha a opção que responde corretamente:
 
-<mark> a) Imprime os números pares de 1 a 10. </mark>
+Correta: a) Imprime os números pares de 1 a 10. </mark>
 
 
 b) Imprime os números ímpares de 1 a 10.
@@ -28,7 +28,7 @@ ______
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-<mark>A) let carro = new Carro("Toyota");</mark>
+Correta: A) let carro = new Carro("Toyota");
 
 B) let ligar = new ligar("Toyota");
 
@@ -44,7 +44,7 @@ ______
 
 Escolha a opção que responde corretamente:
 
-<mark>A) 18
+Correta: A) 18
 
 B) 16
 
@@ -56,7 +56,7 @@ ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-<mark>A) ![Uma imagem](assets/ex04_1.PNG)
+Correta: A) ![Uma imagem](assets/ex04_1.PNG)
 
 B) ![Uma imagem](assets/ex04_2.PNG)
 
@@ -68,7 +68,7 @@ ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-<mark>A) ![Uma imagem](assets/ex05_1.PNG)
+Correta: A) ![Uma imagem](assets/ex05_1.PNG)
 
 B) ![Uma imagem](assets/ex05_2.PNG)
 
@@ -84,7 +84,7 @@ ______
 
 Qual será a saída do código acima?
 
-<mark>A) "Olá, meu nome é João. Olá, meu nome é Maria."
+Correta: A) "Olá, meu nome é João. Olá, meu nome é Maria."
 
 B) "Olá, meu nome é ."
 
