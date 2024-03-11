@@ -1,19 +1,7 @@
-# Instruções
+# Resolução Lista Ponderada
+### Lucas Matheus Nunes - 10/03/2024
 
-- Faça uma cópia deste arquivo .md para um repositório próprio
-- Resolva as 6 questões objetivas assinalando a alternativa correta
-- Resolva as 4 questões dissertativas escrevendo no próprio arquivo .md
-  - lembre-se de utilizar as estruturas de código como ``esta aqui com ` `` ou
-```javascript
-//esta aqui com ```
-let a = "olá"
-let b = 10
-print(a)
-```
-- Resolva as questões com uso do Visual Studio Code ou ambiente similar.
-- Teste seus códigos antes de trazer a resposta para cá.
-- Cuidado com ChatGPT e afins: entregar algo só para ganhar nota não faz você aprender e ficar mais inteligente. Não seja dependente da máquina!
-- ao final, publique seu arquivo lista_01.md com as respostas em seu repositório, e envie o link pela Adalove. 
+As respostas das questões objetivas estão grifadas com marca-texto amarelo. Enquanto isso, as questões dissertativas foram entregues no modelo conforme solicitado (usando os boxes com ```` ``` ````)
 
 # Questões objetivas
 
@@ -123,22 +111,33 @@ Dica: Utilize `console.log()` para exibir as informações!
 
 *Resposta*:
 ```javascript
+// Definição da classe Animal
 class Animal {
+  // Método construtor da classe, recebe nome e idade como parâmetros
   constructor(nome, idade) {
+    // Atribui o nome recebido ao atributo nome do objeto atual
     this.nome = nome;
+    // Atribui a idade recebida ao atributo idade do objeto atual
     this.idade = idade;
   }
 
+  // Método descrever, imprime uma mensagem descrevendo o animal
   descrever(){
+    // Imprime uma mensagem com o nome e a idade do animal
     console.log(`Exemplo de animal: ${this.nome} com ${this.idade} anos de idade.`)
   }
 }
 
+// Cria uma instância da classe Animal com nome "cachorro" e idade 8, atribuindo à variável cachorro
 var cachorro = new Animal("cachorro", 8);
+// Cria uma instância da classe Animal com nome "gato" e idade 3, atribuindo à variável gato
 var gato = new Animal("gato", 3);
 
+// Chama o método descrever do objeto cachorro, que imprime uma mensagem descrevendo o cachorro
 cachorro.descrever();
+// Chama o método descrever do objeto gato, que imprime uma mensagem descrevendo o gato
 gato.descrever();
+
 ```
 ______
 
